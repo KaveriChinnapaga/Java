@@ -1,0 +1,10 @@
+const arr1 = [4,8,9,2,20,24]; 
+
+
+function arrSort(arr) { 
+	arr.sort((a,b)=>a-b); 
+	arr.reverse(); 
+	return arr; 
+} 
+
+console.log(arrSort(arr1)); 
